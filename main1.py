@@ -4,9 +4,9 @@ from datetime import datetime, timedelta
 import pytz
 
 # Настройки бота
-TOKEN = "7945564802:AAEkm7uqyyC4O2HMI5cNGUqID68uT_SQg1E"
-ADMIN_CHAT_ID = "292824554" 
-ADMIN_CHAT_ID1 = "1347692271" 
+TOKEN = ""
+ADMIN_CHAT_ID = "" 
+ADMIN_CHAT_ID1 = "" 
 TIMEZONE = pytz.timezone('Europe/Moscow')
 
 bot = telebot.TeleBot(TOKEN)
